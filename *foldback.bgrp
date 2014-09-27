@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd'>
+	<BiduleGroup id="UID_1299458257" displayName="*foldback" zoom="0.9" type="com.plogue.groups.*foldback" processingMode="process" author="rootsix" displayPath="*rootsix\tfx\t*foldback" version="1.0">
+		<Geometry x="-565" y="238.5" w="0" h="0"/>
+		<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
+		<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
+		<Gui state="normal" hidden="true" generic="true">
+			<Geometry x="0" y="0" w="0" h="0"/>
+		</Gui>
+		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+		<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Bidule id="UID_1299458260" type="com.plogue.Function" displayName="(abs(abs(mod(x-y, y*4))-(y*2))-y)*(1/y)" processingMode="process">
+			<Geometry x="6.71452" y="-24.2616" w="0" h="0"/>
+			<ChannelConfig numSampleIn="3" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="50" y="933" w="697" h="172"/>
+			</Gui>
+			<Presets uSize="981" checkSum="1104">eJzdk09PwjAYxr3Kp2jeC7BkXTckItlG4mGJCaiRi9fSVljY2qXt3Pj2loEmGDDx4sFb/zzP+3v7Pmk8a8sCvQttciUTCDEBJCRTPJfrBB6WT/5kMr7zQ5ilvfg+53UhnrUwwhrkjNJMW5MnsLG2mgZB0zS4GWGl10FESBi8LuZLthEl9XNpLJVMAHL6qVSPtBSmokwc7ueKUbtvoH+CwK3hfWR3lUiAqRJXhVrXAme1ZHs1pL3r+CBFOU/AtS5d3QQyVfAVZVtAWlCuZLFLQKq93OmpdhordGfxbwHVRuhFLjt/t6atGwSgQrGt4JnSL1RyVSbwRgvjXlDWtms2o8wq7Ww4hDSMg6/K5zjRBU70S06Eyc8kcgFEzoCsrs9xIKUrMyB47LXeyBtE/qD12uFweAp2u27030IIP0M4nkX/MATyJyGE+MYFMAjx+BjApfnHwcmvSa8+ABGpPHw=</Presets>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">(abs(abs(mod(x-y, y*4))-(y*2))-y)*(1/y)</Parameter>
+		</Bidule>
+		<Bidule id="UID_1299458262" type="com.plogue.Variable" displayName="threshold" processingMode="process">
+			<Geometry x="21.0475" y="13.9044" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="477" y="515" w="392" h="160"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0.1" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.114118</Parameter>
+		</Bidule>
+		<Link producerId="UID_1299458262" producerChannel="0" listenerId="UID_1299458260" listenerChannel="1"/>
+		<Link producerId="UID_1299458257" producerChannel="0" listenerId="UID_1299458260" listenerChannel="0"/>
+		<Link producerId="UID_1299458260" producerChannel="0" listenerId="UID_1299458257" listenerChannel="0"/>
+		<VirtualParameter id="0" source="UID_1299458262" param="0" displayName="threshold"/>
+	</BiduleGroup>
+	<Automation id="Automation"/>
+</BoardLayout>
