@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd' scaleFactor="-1">
 	<BiduleGroup id="UID_1458261673" displayName="*seq.midi.notelist.rand_v2" zoom="1" type="com.plogue.groups.*seq.midi.notelist.rand_v2" processingMode="process" author="boonier" displayPath="*rootsix\tsequencers\tv2\t*seq.midi.notelist.rand_v2" version="1.0">
-		<Geometry x="-720" y="210" w="0" h="0"/>
+		<Geometry x="-1128.24" y="-56.4706" w="0" h="0"/>
 		<Channel index="0" name="tick" direction="input" type="samples"/>
 		<Channel index="1" name="Sample Input Channel 2" direction="input" type="samples"/>
 		<Channel index="2" name="Sample Input Channel 3" direction="input" type="samples"/>
 		<Channel index="0" name="MIDI Output Port 1" direction="output" type="midi"/>
+		<Gui state="normal" hidden="true" generic="true">
+			<Geometry x="524" y="205" w="605" h="501"/>
+		</Gui>
 		<Presets uSize="1834" checkSum="1752">eJztlV1LwzAUhr11vyKcm4GwNOk2W7e2Ay8EwS/cjXcS2uMMtklNUjf/vbF+wMY+UIZX3jXNOXnyHnhIMllUJXlBY6VWKXDKgKDKdSHVLIXz6XUvjocnPQ6TrJOcyqIp8cagRWeJb1R2tLAyhUfn6lEQzOdzOu9TbWZByBgP7i4vpvkjVqInlXVC5QjE14+UvhIV2lrk+LF/oXPh3i/QXULQhS26xL3WmEKuK1qXetYgnRnd1JYeWXymlSwkVdphKa2jRqji/iWErHOYfJxBZJGCz6Q8MAWppANiUBRala8pKP1e6muF8fsOTVvei4A0Fs2lVG1v+y0WfjpASp0/YXGmza1H6SqFB1FaH6tqXJvgTOROG99GOWQ8Cb5PXscJN3DCH3IYZdtJbF+BdoH4BhBbA3KmWceBrB+PB3w8jMaDeLwdt2mAPIx+mOw4plF4MuDhdmB/H/n4jlSDvUAYYyscv2qdWLGDf9nx+S/8N+TfkF+McE9u0OgP7Bh6OTr9bYokwdJTlB28AVEfT6c=</Presets>
 		<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
@@ -133,6 +136,8 @@
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">1;.7</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+				<Parameter id="3" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0"></Parameter>
 			</Bidule>
 			<Bidule id="UID_1458261698" type="com.plogue.UnaryOperator" displayName="Floor" processingMode="process">
 				<Geometry x="0" y="87" w="0" h="0"/>
@@ -173,7 +178,7 @@
 			<VirtualParameter id="0" source="UID_1458261696" param="0" displayName="Amplitudes List"/>
 		</BiduleGroup>
 		<BiduleGroup id="UID_1458261703" displayName="Stochastic Freq" zoom="1" processingMode="process" author="Plogue Art et Technologie" version="1.0">
-			<Geometry x="-176.667" y="190.667" w="0" h="0"/>
+			<Geometry x="-272.667" y="258.667" w="0" h="0"/>
 			<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
 			<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
 			<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
@@ -205,6 +210,8 @@
 				<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">38;41;57;48;</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+				<Parameter id="3" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0"></Parameter>
 			</Bidule>
 			<Bidule id="UID_1458261710" type="com.plogue.UnaryOperator" displayName="Floor" processingMode="process">
 				<Geometry x="32" y="94" w="0" h="0"/>
@@ -325,6 +332,9 @@
 			<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
 			<Channel index="1" name="Sample Input Channel 2" direction="input" type="samples"/>
 			<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="617" y="294" w="418" h="324"/>
+			</Gui>
 			<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
 			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
@@ -407,6 +417,8 @@
 				<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 				<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">500;
 3000;</Parameter>
+				<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+				<Parameter id="3" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0"></Parameter>
 			</Bidule>
 			<Bidule id="UID_1458261744" type="com.plogue.UnaryOperator" displayName="Floor" processingMode="process">
 				<Geometry x="103" y="138" w="0" h="0"/>
@@ -579,10 +591,10 @@
 		<Link producerId="UID_1458261673" producerChannel="2" listenerId="UID_1458261729" listenerChannel="1"/>
 		<Link producerId="UID_1458261673" producerChannel="1" listenerId="UID_1458261764" listenerChannel="0"/>
 		<VirtualParameter id="0" source="UID_1458261758" param="0" displayName="Chances of generating a note"/>
-		<VirtualParameter id="1" source="UID_1458261703" param="0" displayName="Frequency List"/>
-		<VirtualParameter id="2" source="UID_1458261703" param="1" displayName="Base Freq"/>
-		<VirtualParameter id="3" source="UID_1458261683" param="0" displayName="Amplitudes List"/>
-		<VirtualParameter id="4" source="UID_1458261729" param="0" displayName="Durations List"/>
+		<VirtualParameter id="1" source="UID_1458261703" param="0" displayName="freqs"/>
+		<VirtualParameter id="2" source="UID_1458261703" param="1" displayName="base freq"/>
+		<VirtualParameter id="3" source="UID_1458261683" param="0" displayName="amplitude"/>
+		<VirtualParameter id="4" source="UID_1458261729" param="0" displayName="durations"/>
 	</BiduleGroup>
 	<Automation id="Automation"/>
 </BoardLayout>

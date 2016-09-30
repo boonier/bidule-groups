@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd'>
+<BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd' scaleFactor="-1">
 	<BiduleGroup id="UID_1400716106" displayName="*range" zoom="1" type="com.plogue.groups.*range" processingMode="process" author="rootsix" displayPath="*rootsix\tmath\t*range" version="1.0">
-		<Geometry x="-532.5" y="-26.875" w="0" h="0"/>
-		<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
+		<Geometry x="-319" y="-65" w="0" h="0"/>
+		<Channel index="0" name="Trigger" direction="input" type="samples"/>
 		<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
 		<Gui state="normal" hidden="true" generic="true">
-			<Geometry x="626" y="494" w="392" h="185"/>
+			<Geometry x="335" y="432" w="392" h="185"/>
 		</Gui>
 		<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
