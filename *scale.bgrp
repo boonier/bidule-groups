@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd'>
-	<BiduleGroup id="UID_1116079524" displayName="*scale" zoom="1" type="com.plogue.groups.*scale" processingMode="process" author="boonier" displayPath="*rootsix\tmath\t*scale" version="1.0">
+	<BiduleGroup id="UID_1116079524" displayName="*scale" zoom="1" type="com.plogue.groups.*scale" processingMode="process" author="rootsix/boonier" displayPath="*rootsix\tmath\t*scale" version="1.0">
 		<Geometry x="-147.414" y="94.0957" w="0" h="0"/>
 		<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
 		<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
