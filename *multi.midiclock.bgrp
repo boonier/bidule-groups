@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd' scaleFactor="-1">
+	<BiduleGroup id="UID_1482105578" displayName="*multi.midiclock" zoom="0.8" type="com.plogue.groups.*multi.midiclock" processingMode="process" author="rootsix" displayPath="*rootsix\tmidi\t*multi.midiclock" version="1.0">
+		<Geometry x="-77" y="151.5" w="0" h="0"/>
+		<Gui state="normal" hidden="false" generic="true">
+			<Geometry x="1554" y="782" w="546" h="232"/>
+		</Gui>
+		<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">2.0</Parameter>
+		<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Bidule id="UID_1482105579" type="com.plogue.MIDIMiscSysexFilter" displayName="Misc Sysex Filter_0" processingMode="process">
+			<Geometry x="-87.6667" y="147.167" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="1" numMidiOut="2" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="965" y="135" w="392" h="447"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="3" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="4" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="5" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="6" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="8" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="9" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="10" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="12" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+			<Parameter id="13" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105581" type="com.plogue.SyncToMIDI" displayName="Sync To MIDI Clock_0" processingMode="process">
+			<Geometry x="-87.6667" y="235.5" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="517" y="378" w="463" h="148"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105583" type="com.plogue.Gate" displayName="Port 1 M-Audio USB on/off" processingMode="process">
+			<Geometry x="-734.25" y="-13.5833" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="848" y="483" w="392" h="148"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105585" type="com.plogue.MIDIGate" displayName="MIDI Gate_1" processingMode="process">
+			<Geometry x="-734.583" y="-103.583" w="0" h="0"/>
+			<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="1" numMidiOut="2" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105587" type="com.plogue.MIDIGate" displayName="MIDI Gate_2" processingMode="process">
+			<Geometry x="-527.917" y="-107.917" w="0" h="0"/>
+			<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="1" numMidiOut="2" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105589" type="com.plogue.Gate" displayName="EDIROL FA-101 on/off" processingMode="process">
+			<Geometry x="-527.917" y="-17.9167" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="820" y="309" w="392" h="148"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105591" type="com.plogue.MIDIGate" displayName="MIDI Gate_3" processingMode="process">
+			<Geometry x="-268.333" y="-107.417" w="0" h="0"/>
+			<ChannelConfig numSampleIn="1" numSampleOut="0" numMidiIn="1" numMidiOut="2" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105593" type="com.plogue.Gate" displayName="IAC Bus 1 on/off" processingMode="process">
+			<Geometry x="-268.333" y="-17.4167" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="1" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="820" y="309" w="392" h="148"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105595" type="com.plogue.MIDIDelay" displayName="MIDI Delay_1" processingMode="process">
+			<Geometry x="-735.417" y="-200.417" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="1" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="-1" y="-1" w="0" h="0"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105597" type="com.plogue.MIDIDelay" displayName="MIDI Delay_2" processingMode="process">
+			<Geometry x="-529.584" y="-202.084" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="1" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="-1" y="-1" w="0" h="0"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105599" type="com.plogue.MIDIDelay" displayName="MIDI Delay_3" processingMode="process">
+			<Geometry x="-267.501" y="-206.251" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="1" numMidiOut="1" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="-1" y="-1" w="0" h="0"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105601" type="com.plogue.Comment" displayName="spacer" processingMode="process">
+			<Geometry x="-577.917" y="225.417" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="0" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="true">
+				<Geometry x="654" y="317" w="408" h="289"/>
+			</Gui>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0"></Parameter>
+		</Bidule>
+		<Bidule id="UID_1482105603" type="MidiOutput_2" displayName="Port 1 M-Audio USB Axiom 61" processingMode="process">
+			<Geometry x="-787.5" y="-294.375" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<CustomData name="DeviceName">Port 1 M-Audio USB Axiom 61</CustomData>
+		</Bidule>
+		<Bidule id="UID_1482105604" type="MidiOutput_1" displayName="Plug 1 EDIROL EDIROL FA-101 (2094)" processingMode="process">
+			<Geometry x="-552.5" y="-298.125" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<CustomData name="DeviceName">Plug 1 EDIROL EDIROL FA-101 (2094)</CustomData>
+		</Bidule>
+		<Bidule id="UID_1482105605" type="MidiOutput_0" displayName="Bus 1 Apple Inc. IAC Driver" processingMode="process">
+			<Geometry x="-267.5" y="-293.125" w="0" h="0"/>
+			<ChannelConfig numSampleIn="0" numSampleOut="0" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<CustomData name="DeviceName">Bus 1 Apple Inc. IAC Driver</CustomData>
+		</Bidule>
+		<Link producerId="UID_1482105589" producerChannel="0" listenerId="UID_1482105587" listenerChannel="0"/>
+		<Link producerId="UID_1482105581" producerChannel="0" listenerId="UID_1482105579" listenerChannel="0"/>
+		<Link producerId="UID_1482105583" producerChannel="0" listenerId="UID_1482105585" listenerChannel="0"/>
+		<Link producerId="UID_1482105579" producerChannel="0" listenerId="UID_1482105585" listenerChannel="1"/>
+		<Link producerId="UID_1482105579" producerChannel="0" listenerId="UID_1482105587" listenerChannel="1"/>
+		<Link producerId="UID_1482105579" producerChannel="0" listenerId="UID_1482105591" listenerChannel="1"/>
+		<Link producerId="UID_1482105593" producerChannel="0" listenerId="UID_1482105591" listenerChannel="0"/>
+		<Link producerId="UID_1482105585" producerChannel="0" listenerId="UID_1482105595" listenerChannel="0"/>
+		<Link producerId="UID_1482105587" producerChannel="0" listenerId="UID_1482105597" listenerChannel="0"/>
+		<Link producerId="UID_1482105591" producerChannel="0" listenerId="UID_1482105599" listenerChannel="0"/>
+		<Link producerId="UID_1482105595" producerChannel="0" listenerId="UID_1482105603" listenerChannel="0"/>
+		<Link producerId="UID_1482105597" producerChannel="0" listenerId="UID_1482105604" listenerChannel="0"/>
+		<Link producerId="UID_1482105599" producerChannel="0" listenerId="UID_1482105605" listenerChannel="0"/>
+		<VirtualParameter id="2" source="UID_1482105579" param="-8" displayName="Filter Messages" GUI="button"/>
+		<VirtualParameter id="3" source="UID_1482105601" param="0" displayName=" " GUI="label"/>
+		<VirtualParameter id="4" source="UID_1482105583" param="0" displayName="Port 1 M-Audio USB"/>
+		<VirtualParameter id="5" source="UID_1482105595" param="0" displayName="Delay"/>
+		<VirtualParameter id="6" source="UID_1482105589" param="0" displayName="EDIROL FA-101"/>
+		<VirtualParameter id="7" source="UID_1482105597" param="0" displayName="Delay"/>
+		<VirtualParameter id="8" source="UID_1482105593" param="0" displayName="IAC Bus 1 on/off"/>
+		<VirtualParameter id="9" source="UID_1482105599" param="0" displayName="Delay"/>
+	</BiduleGroup>
+	<Automation id="Automation"/>
+	<SyncLink source="UID_1482105578" destination="UID_1482105581"/>
+</BoardLayout>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd' scaleFactor="-1">
-	<BiduleGroup id="UID_1444341847" displayName="*seq.3.matrix" zoom="1" type="com.plogue.groups.*seq.3.matrix" processingMode="process" author="boonier" displayPath="*rootsix\tsequencers\tv2\t*seq.3.matrix" version="1.0">
-		<Geometry x="116.296" y="163.704" w="0" h="0"/>
+	<BiduleGroup id="UID_1444341847" displayName="*seq.mtx.modular" zoom="1" type="com.plogue.groups.*seq.mtx.modular" processingMode="process" author="boonier" displayPath="*rootsix\tsequencers\tv2\t*seq.mtx.modular" version="1.0">
+		<Geometry x="-1236" y="700" w="0" h="0"/>
 		<Channel index="0" name="MIDI Output Port 1" direction="output" type="midi"/>
-		<Gui state="normal" hidden="false" generic="true">
+		<Gui state="normal" hidden="true" generic="true">
 			<Geometry x="404" y="322" w="466" h="204"/>
 		</Gui>
 		<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
@@ -42,9 +42,6 @@
 			<Channel index="0" name="Output" direction="output" type="samples"/>
 			<Channel index="1" name="Gate" direction="output" type="samples"/>
 			<Channel index="2" name="Trigger" direction="output" type="samples"/>
-			<Gui state="normal" hidden="true" generic="true">
-				<Geometry x="1320" y="695" w="529" h="447"/>
-			</Gui>
 			<Presets uSize="1023" checkSum="-310">eJy1k19rwjAUxfc6P0XIizBomlaLm2sr7EEY6Dbmy95GSO9qWJt0Sar12y/WIQraIWwvIX/Oub97AjeeNGWBVqCNUDLBAaEYgeQqEzJP8OPi2bu9je68AE/SXvwgsrqAFw0GrEHOKM24MSLBS2urse+v12uyHhClcz+kNPDf5rMFX0LJPCGNZZIDRk4/luqJlWAqxmH3PlOc2W0D/SMEaUzWR3ZTQYK5KklVqLwGkmtVV4bcGPgiK1bU8F4yq0WD0951vLMikSXYRZGOk+CfuwAjDSxTstgkWKqt3OmZdhoLurV4I4xqA3ouZOtv96xxH4NRofgnZFOlX5nMVJngD1YYl6isbdv8lHGrtLORAKdB7O8rn+KEZzjhhRxKaDeJ/lGgXzDn8tATGKvrU5RtmOieknC/RN3Mwblo4ejCcMNBN2l4QAoOSMMLOWE3JvofjDu1A+Am2D+ar/TqGxPvTQo=</Presets>
 			<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
 			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
@@ -205,6 +202,8 @@
 					<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 					<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">0.5;0.25;0.25;0.5</Parameter>
 					<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+					<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+					<Parameter id="4" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0"></Parameter>
 				</Bidule>
 				<Bidule id="UID_1444341884" type="com.plogue.Accum" displayName="Accum_18" processingMode="process">
 					<Geometry x="-28.8884" y="-82.6662" w="0" h="0"/>
@@ -688,6 +687,8 @@
 					<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 					<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">0.25;.5</Parameter>
 					<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+					<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+					<Parameter id="4" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0"></Parameter>
 				</Bidule>
 				<Bidule id="UID_1444341957" type="com.plogue.Accum" displayName="Accum_18" processingMode="process">
 					<Geometry x="-28.8884" y="-82.6662" w="0" h="0"/>
@@ -1058,6 +1059,8 @@
 					<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
 					<Parameter id="0" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0">0.5;</Parameter>
 					<Parameter id="1" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+					<Parameter id="2" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+					<Parameter id="4" userMin="0" userMax="0" lockedForRandom="true" mutationFactor="0"></Parameter>
 				</Bidule>
 				<Bidule id="UID_1444342011" type="com.plogue.Accum" displayName="Accum_18" processingMode="process">
 					<Geometry x="-28.8884" y="-82.6662" w="0" h="0"/>
