@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BoardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Bidule.xsd' scaleFactor="-1">
+	<BiduleGroup id="UID_1638219914" displayName="*fourth.gen.tape" zoom="1" type="com.plogue.groups.*fourth.gen.tape" processingMode="process" author="boonier" displayPath="*rootsix\tfx\t*fourth.gen.tape" version="1.0">
+		<Geometry x="-343.158" y="162.105" w="0" h="0"/>
+		<Channel index="0" name="Sample Input Channel 1" direction="input" type="samples"/>
+		<Channel index="1" name="Sample Input Channel 2" direction="input" type="samples"/>
+		<Channel index="0" name="Sample Output Channel 1" direction="output" type="samples"/>
+		<Channel index="1" name="Sample Output Channel 2" direction="output" type="samples"/>
+		<Gui state="normal" hidden="false" generic="true">
+			<Geometry x="92" y="432" w="116" h="152"/>
+		</Gui>
+		<Parameter id="-11" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0</Parameter>
+		<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+		<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+		<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+		<Bidule id="UID_1638219907" type="1430808152_1635085670_1969771348_2_2" displayName="Satin_M" processingMode="process">
+			<Geometry x="-2.36801" y="389.906" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="3" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="false">
+				<Geometry x="441" y="40" w="1012" h="818"/>
+			</Gui>
+			<Presets uSize="7743" checkSum="-2044">eJy92U1vmzAYB/Bd10+BfOkJ4ldeopBKO1Sa1G7TetktQuC1aAlEQJbk24+k02R3c596Mb41DeSHyeM/j53FzWGzDn7Krq/bJkckwiiQTdlWdfOYo48Pn8M0FVlI0M3yavGhrnZr+aWTvRz6YDyx6eeHvs7R0zBs57PZfr+P9ixqu8cZxZjMvt3fPZRPclOEddMPRVNKFIzHz5v2U7GR/bYo5fP7d21ZDKcLuNaI6NBX18Fw3MrxyjjDKU6JoCsSM4FTESd4RbI4SxLCeLqiK4qWV+8Xz+cGdZWjcSzNCOXo9/8ICjpZVG2zPuboKPvT8eMJRTceNMjufE6YoGDXy+6+bs4fcP67OIwXgIJ1W/6Q1W3bfS2aqt3k6Hux7scxbXbD+fJvi3Jou/G0iKAlWcz+fPK/HGpwqKWDI/y6hF0NCIKICaKJ6zGZbt4EFFOokGrfFHZtcdUiVBuYa0soFonShGcKx2yHRgTkxerYhGIJ1yMzzmBsOyoBWqnJSi2pDJIyb9MYaxXPFcv2/o01DGpEr3l1aCG3BlOwDgnVQKyBwhpMYFBLkFTzrCMkhEuScGf1T2BMOCpLWIq9SaYA4ZYSA6VUq8ULqBCe1t4ChLrqOOA2wNRy2KYvLJk6DvcS8yaZgsK9ZEyJ/4gkWDMmhbUGW+6aDdgyNhsTWJmWTHhijmG/HPHLvdJyTMFpCRJpjxVbjIMY94kJn1jsE/OYI8xjjjBj1+He4sa+YwLLuNkxgWXc7Zji6cnV9Hix32Ht0Td4XPNegtYzDb+BdLVoAVth7q4VgRd+XM0QNa5sd1jAdQs3JYjzXSpuyg/mfD/M26pFmLLD+U6Y0BuPCyh4fSlM6xbnk0q43OCA76G3HQ6hbZEydVrZVnsMWolHS0sLrZGyzQu4NjJ/VoyNFo4y6+oQp6cdRBL/pLH7cF3/sasEgSVjgjiXvKVHrKUHvaDw/6LGV+cfUJdXi5n2A+27XwsTnc4=</Presets>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="1" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="2" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="3" userMin="-20" userMax="20" lockedForRandom="false" mutationFactor="0.1">-14.0</Parameter>
+			<Parameter id="4" userMin="-12" userMax="12" lockedForRandom="false" mutationFactor="0.1">6.200000</Parameter>
+			<Parameter id="5" userMin="1.8749" userMax="30" lockedForRandom="false" mutationFactor="0.1">1.870000</Parameter>
+			<Parameter id="6" userMin="-5" userMax="5" lockedForRandom="false" mutationFactor="0.1">-0.300000</Parameter>
+			<Parameter id="7" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">50.0</Parameter>
+			<Parameter id="8" userMin="0" userMax="18" lockedForRandom="false" mutationFactor="0.1">9.0</Parameter>
+			<Parameter id="9" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="10" userMin="-24" userMax="0" lockedForRandom="false" mutationFactor="0.1">-12.0</Parameter>
+			<Parameter id="11" userMin="-120" userMax="-40" lockedForRandom="false" mutationFactor="0.1">-66.0</Parameter>
+			<Parameter id="12" userMin="-100" userMax="-50" lockedForRandom="false" mutationFactor="0.1">-75.0</Parameter>
+			<Parameter id="13" userMin="-80" userMax="-20" lockedForRandom="false" mutationFactor="0.1">-50.0</Parameter>
+			<Parameter id="14" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">29.900000</Parameter>
+			<Parameter id="15" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="16" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="17" userMin="0" userMax="4" lockedForRandom="false" mutationFactor="0.1">3.0</Parameter>
+			<Parameter id="18" userMin="-1" userMax="4" lockedForRandom="false" mutationFactor="0.1">-1.0</Parameter>
+			<Parameter id="19" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="20" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="21" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="22" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="23" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="24" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="25" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="26" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="27" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="28" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="29" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="30" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="31" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="32" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="33" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="34" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="35" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="36" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="37" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="38" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="39" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="40" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="41" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="42" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="43" userMin="20" userMax="2000" lockedForRandom="false" mutationFactor="0.1">200.0</Parameter>
+			<Parameter id="44" userMin="200" userMax="20000" lockedForRandom="false" mutationFactor="0.1">4000.0</Parameter>
+			<Parameter id="45" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="46" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">50.0</Parameter>
+			<Parameter id="47" userMin="1" userMax="5" lockedForRandom="false" mutationFactor="0.1">2.600000</Parameter>
+			<Parameter id="48" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="49" userMin="0" userMax="3" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="50" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="51" userMin="0" userMax="5" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="52" userMin="-1" userMax="5" lockedForRandom="false" mutationFactor="0.1">-1.0</Parameter>
+			<Parameter id="53" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="54" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="55" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="56" userMin="-3" userMax="23" lockedForRandom="false" mutationFactor="0.1">6.0</Parameter>
+			<Parameter id="57" userMin="-3" userMax="23" lockedForRandom="false" mutationFactor="0.1">6.0</Parameter>
+			<Parameter id="58" userMin="0.1" userMax="2" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="59" userMin="0.1" userMax="2" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="60" userMin="0.1" userMax="0.9" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="61" userMin="0.1" userMax="0.9" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="62" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="63" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="64" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="65" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="66" userMin="-2" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<CustomData name="ClassInfo">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</CustomData>
+			<CustomData name="ClassInfoSize">4811</CustomData>
+			<CustomData name="ClassInfoSum">-1416</CustomData>
+		</Bidule>
+		<Bidule id="UID_1638219908" type="1430808152_1635085670_1969771348_2_2" displayName="Satin_2" processingMode="process">
+			<Geometry x="-3.27701" y="305.361" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="3" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="false">
+				<Geometry x="124" y="82" w="0" h="0"/>
+			</Gui>
+			<Presets uSize="7743" checkSum="-2044">eJy92U1vmzAYB/Bd10+BfOkJ4ldeopBKO1Sa1G7TetktQuC1aAlEQJbk24+k02R3c596Mb41DeSHyeM/j53FzWGzDn7Krq/bJkckwiiQTdlWdfOYo48Pn8M0FVlI0M3yavGhrnZr+aWTvRz6YDyx6eeHvs7R0zBs57PZfr+P9ixqu8cZxZjMvt3fPZRPclOEddMPRVNKFIzHz5v2U7GR/bYo5fP7d21ZDKcLuNaI6NBX18Fw3MrxyjjDKU6JoCsSM4FTESd4RbI4SxLCeLqiK4qWV+8Xz+cGdZWjcSzNCOXo9/8ICjpZVG2zPuboKPvT8eMJRTceNMjufE6YoGDXy+6+bs4fcP67OIwXgIJ1W/6Q1W3bfS2aqt3k6Hux7scxbXbD+fJvi3Jou/G0iKAlWcz+fPK/HGpwqKWDI/y6hF0NCIKICaKJ6zGZbt4EFFOokGrfFHZtcdUiVBuYa0soFonShGcKx2yHRgTkxerYhGIJ1yMzzmBsOyoBWqnJSi2pDJIyb9MYaxXPFcv2/o01DGpEr3l1aCG3BlOwDgnVQKyBwhpMYFBLkFTzrCMkhEuScGf1T2BMOCpLWIq9SaYA4ZYSA6VUq8ULqBCe1t4ChLrqOOA2wNRy2KYvLJk6DvcS8yaZgsK9ZEyJ/4gkWDMmhbUGW+6aDdgyNhsTWJmWTHhijmG/HPHLvdJyTMFpCRJpjxVbjIMY94kJn1jsE/OYI8xjjjBj1+He4sa+YwLLuNkxgWXc7Zji6cnV9Hix32Ht0Td4XPNegtYzDb+BdLVoAVth7q4VgRd+XM0QNa5sd1jAdQs3JYjzXSpuyg/mfD/M26pFmLLD+U6Y0BuPCyh4fSlM6xbnk0q43OCA76G3HQ6hbZEydVrZVnsMWolHS0sLrZGyzQu4NjJ/VoyNFo4y6+oQp6cdRBL/pLH7cF3/sasEgSVjgjiXvKVHrKUHvaDw/6LGV+cfUJdXi5n2A+27XwsTnc4=</Presets>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="1" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="2" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="3" userMin="-20" userMax="20" lockedForRandom="false" mutationFactor="0.1">-14.0</Parameter>
+			<Parameter id="4" userMin="-12" userMax="12" lockedForRandom="false" mutationFactor="0.1">6.200000</Parameter>
+			<Parameter id="5" userMin="1.8749" userMax="30" lockedForRandom="false" mutationFactor="0.1">1.874900</Parameter>
+			<Parameter id="6" userMin="-5" userMax="5" lockedForRandom="false" mutationFactor="0.1">-0.300000</Parameter>
+			<Parameter id="7" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">50.0</Parameter>
+			<Parameter id="8" userMin="0" userMax="18" lockedForRandom="false" mutationFactor="0.1">9.0</Parameter>
+			<Parameter id="9" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="10" userMin="-24" userMax="0" lockedForRandom="false" mutationFactor="0.1">-12.0</Parameter>
+			<Parameter id="11" userMin="-120" userMax="-40" lockedForRandom="false" mutationFactor="0.1">-66.0</Parameter>
+			<Parameter id="12" userMin="-100" userMax="-50" lockedForRandom="false" mutationFactor="0.1">-75.0</Parameter>
+			<Parameter id="13" userMin="-80" userMax="-20" lockedForRandom="false" mutationFactor="0.1">-50.0</Parameter>
+			<Parameter id="14" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">29.900000</Parameter>
+			<Parameter id="15" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="16" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="17" userMin="0" userMax="4" lockedForRandom="false" mutationFactor="0.1">3.0</Parameter>
+			<Parameter id="18" userMin="-1" userMax="4" lockedForRandom="false" mutationFactor="0.1">-1.0</Parameter>
+			<Parameter id="19" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="20" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="21" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="22" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="23" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="24" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="25" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="26" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="27" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="28" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="29" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="30" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="31" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="32" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="33" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="34" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="35" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="36" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="37" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="38" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="39" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="40" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="41" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="42" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="43" userMin="20" userMax="2000" lockedForRandom="false" mutationFactor="0.1">200.0</Parameter>
+			<Parameter id="44" userMin="200" userMax="20000" lockedForRandom="false" mutationFactor="0.1">4000.0</Parameter>
+			<Parameter id="45" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="46" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">50.0</Parameter>
+			<Parameter id="47" userMin="1" userMax="5" lockedForRandom="false" mutationFactor="0.1">2.600000</Parameter>
+			<Parameter id="48" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="49" userMin="0" userMax="3" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="50" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="51" userMin="0" userMax="5" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="52" userMin="-1" userMax="5" lockedForRandom="false" mutationFactor="0.1">-1.0</Parameter>
+			<Parameter id="53" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="54" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="55" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="56" userMin="-3" userMax="23" lockedForRandom="false" mutationFactor="0.1">6.0</Parameter>
+			<Parameter id="57" userMin="-3" userMax="23" lockedForRandom="false" mutationFactor="0.1">6.0</Parameter>
+			<Parameter id="58" userMin="0.1" userMax="2" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="59" userMin="0.1" userMax="2" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="60" userMin="0.1" userMax="0.9" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="61" userMin="0.1" userMax="0.9" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="62" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="63" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="64" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="65" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="66" userMin="-2" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<CustomData name="ClassInfo">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</CustomData>
+			<CustomData name="ClassInfoSize">4811</CustomData>
+			<CustomData name="ClassInfoSum">58</CustomData>
+		</Bidule>
+		<Bidule id="UID_1638219910" type="1430808152_1635085670_1969771348_2_2" displayName="Satin_3" processingMode="process">
+			<Geometry x="-5.90799" y="214.308" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="3" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="false">
+				<Geometry x="124" y="82" w="0" h="0"/>
+			</Gui>
+			<Presets uSize="7743" checkSum="-2044">eJy92U1vmzAYB/Bd10+BfOkJ4ldeopBKO1Sa1G7TetktQuC1aAlEQJbk24+k02R3c596Mb41DeSHyeM/j53FzWGzDn7Krq/bJkckwiiQTdlWdfOYo48Pn8M0FVlI0M3yavGhrnZr+aWTvRz6YDyx6eeHvs7R0zBs57PZfr+P9ixqu8cZxZjMvt3fPZRPclOEddMPRVNKFIzHz5v2U7GR/bYo5fP7d21ZDKcLuNaI6NBX18Fw3MrxyjjDKU6JoCsSM4FTESd4RbI4SxLCeLqiK4qWV+8Xz+cGdZWjcSzNCOXo9/8ICjpZVG2zPuboKPvT8eMJRTceNMjufE6YoGDXy+6+bs4fcP67OIwXgIJ1W/6Q1W3bfS2aqt3k6Hux7scxbXbD+fJvi3Jou/G0iKAlWcz+fPK/HGpwqKWDI/y6hF0NCIKICaKJ6zGZbt4EFFOokGrfFHZtcdUiVBuYa0soFonShGcKx2yHRgTkxerYhGIJ1yMzzmBsOyoBWqnJSi2pDJIyb9MYaxXPFcv2/o01DGpEr3l1aCG3BlOwDgnVQKyBwhpMYFBLkFTzrCMkhEuScGf1T2BMOCpLWIq9SaYA4ZYSA6VUq8ULqBCe1t4ChLrqOOA2wNRy2KYvLJk6DvcS8yaZgsK9ZEyJ/4gkWDMmhbUGW+6aDdgyNhsTWJmWTHhijmG/HPHLvdJyTMFpCRJpjxVbjIMY94kJn1jsE/OYI8xjjjBj1+He4sa+YwLLuNkxgWXc7Zji6cnV9Hix32Ht0Td4XPNegtYzDb+BdLVoAVth7q4VgRd+XM0QNa5sd1jAdQs3JYjzXSpuyg/mfD/M26pFmLLD+U6Y0BuPCyh4fSlM6xbnk0q43OCA76G3HQ6hbZEydVrZVnsMWolHS0sLrZGyzQu4NjJ/VoyNFo4y6+oQp6cdRBL/pLH7cF3/sasEgSVjgjiXvKVHrKUHvaDw/6LGV+cfUJdXi5n2A+27XwsTnc4=</Presets>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="1" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="2" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="3" userMin="-20" userMax="20" lockedForRandom="false" mutationFactor="0.1">-14.0</Parameter>
+			<Parameter id="4" userMin="-12" userMax="12" lockedForRandom="false" mutationFactor="0.1">6.200000</Parameter>
+			<Parameter id="5" userMin="1.8749" userMax="30" lockedForRandom="false" mutationFactor="0.1">1.874900</Parameter>
+			<Parameter id="6" userMin="-5" userMax="5" lockedForRandom="false" mutationFactor="0.1">-0.300000</Parameter>
+			<Parameter id="7" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">50.0</Parameter>
+			<Parameter id="8" userMin="0" userMax="18" lockedForRandom="false" mutationFactor="0.1">9.0</Parameter>
+			<Parameter id="9" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="10" userMin="-24" userMax="0" lockedForRandom="false" mutationFactor="0.1">-12.0</Parameter>
+			<Parameter id="11" userMin="-120" userMax="-40" lockedForRandom="false" mutationFactor="0.1">-66.0</Parameter>
+			<Parameter id="12" userMin="-100" userMax="-50" lockedForRandom="false" mutationFactor="0.1">-75.0</Parameter>
+			<Parameter id="13" userMin="-80" userMax="-20" lockedForRandom="false" mutationFactor="0.1">-50.0</Parameter>
+			<Parameter id="14" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">29.900000</Parameter>
+			<Parameter id="15" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="16" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="17" userMin="0" userMax="4" lockedForRandom="false" mutationFactor="0.1">3.0</Parameter>
+			<Parameter id="18" userMin="-1" userMax="4" lockedForRandom="false" mutationFactor="0.1">-1.0</Parameter>
+			<Parameter id="19" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="20" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="21" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="22" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="23" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="24" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="25" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="26" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="27" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="28" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="29" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="30" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="31" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="32" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="33" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="34" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="35" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="36" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="37" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="38" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="39" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="40" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="41" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="42" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="43" userMin="20" userMax="2000" lockedForRandom="false" mutationFactor="0.1">200.0</Parameter>
+			<Parameter id="44" userMin="200" userMax="20000" lockedForRandom="false" mutationFactor="0.1">4000.0</Parameter>
+			<Parameter id="45" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="46" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">50.0</Parameter>
+			<Parameter id="47" userMin="1" userMax="5" lockedForRandom="false" mutationFactor="0.1">2.600000</Parameter>
+			<Parameter id="48" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="49" userMin="0" userMax="3" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="50" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="51" userMin="0" userMax="5" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="52" userMin="-1" userMax="5" lockedForRandom="false" mutationFactor="0.1">-1.0</Parameter>
+			<Parameter id="53" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="54" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="55" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="56" userMin="-3" userMax="23" lockedForRandom="false" mutationFactor="0.1">6.0</Parameter>
+			<Parameter id="57" userMin="-3" userMax="23" lockedForRandom="false" mutationFactor="0.1">6.0</Parameter>
+			<Parameter id="58" userMin="0.1" userMax="2" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="59" userMin="0.1" userMax="2" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="60" userMin="0.1" userMax="0.9" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="61" userMin="0.1" userMax="0.9" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="62" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="63" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="64" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="65" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="66" userMin="-2" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<CustomData name="ClassInfo">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</CustomData>
+			<CustomData name="ClassInfoSize">4811</CustomData>
+			<CustomData name="ClassInfoSum">-1486</CustomData>
+		</Bidule>
+		<Bidule id="UID_1638219912" type="1430808152_1635085670_1969771348_2_2" displayName="Satin_4" processingMode="process">
+			<Geometry x="-6.435" y="116.94" w="0" h="0"/>
+			<ChannelConfig numSampleIn="2" numSampleOut="3" numMidiIn="1" numMidiOut="0" numFreqIn="0" numFreqOut="0" numMagIn="0" numMagOut="0"/>
+			<Gui state="normal" hidden="true" generic="false">
+				<Geometry x="141" y="35" w="0" h="0"/>
+			</Gui>
+			<Presets uSize="7743" checkSum="-2044">eJy92U1vmzAYB/Bd10+BfOkJ4ldeopBKO1Sa1G7TetktQuC1aAlEQJbk24+k02R3c596Mb41DeSHyeM/j53FzWGzDn7Krq/bJkckwiiQTdlWdfOYo48Pn8M0FVlI0M3yavGhrnZr+aWTvRz6YDyx6eeHvs7R0zBs57PZfr+P9ixqu8cZxZjMvt3fPZRPclOEddMPRVNKFIzHz5v2U7GR/bYo5fP7d21ZDKcLuNaI6NBX18Fw3MrxyjjDKU6JoCsSM4FTESd4RbI4SxLCeLqiK4qWV+8Xz+cGdZWjcSzNCOXo9/8ICjpZVG2zPuboKPvT8eMJRTceNMjufE6YoGDXy+6+bs4fcP67OIwXgIJ1W/6Q1W3bfS2aqt3k6Hux7scxbXbD+fJvi3Jou/G0iKAlWcz+fPK/HGpwqKWDI/y6hF0NCIKICaKJ6zGZbt4EFFOokGrfFHZtcdUiVBuYa0soFonShGcKx2yHRgTkxerYhGIJ1yMzzmBsOyoBWqnJSi2pDJIyb9MYaxXPFcv2/o01DGpEr3l1aCG3BlOwDgnVQKyBwhpMYFBLkFTzrCMkhEuScGf1T2BMOCpLWIq9SaYA4ZYSA6VUq8ULqBCe1t4ChLrqOOA2wNRy2KYvLJk6DvcS8yaZgsK9ZEyJ/4gkWDMmhbUGW+6aDdgyNhsTWJmWTHhijmG/HPHLvdJyTMFpCRJpjxVbjIMY94kJn1jsE/OYI8xjjjBj1+He4sa+YwLLuNkxgWXc7Zji6cnV9Hix32Ht0Td4XPNegtYzDb+BdLVoAVth7q4VgRd+XM0QNa5sd1jAdQs3JYjzXSpuyg/mfD/M26pFmLLD+U6Y0BuPCyh4fSlM6xbnk0q43OCA76G3HQ6hbZEydVrZVnsMWolHS0sLrZGyzQu4NjJ/VoyNFo4y6+oQp6cdRBL/pLH7cF3/sasEgSVjgjiXvKVHrKUHvaDw/6LGV+cfUJdXi5n2A+27XwsTnc4=</Presets>
+			<Parameter id="-10000" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-9" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="-7" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1</Parameter>
+			<Parameter id="-5" userMin="0" userMax="0" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="-2" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="0" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="1" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="2" userMin="0" userMax="127" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="3" userMin="-20" userMax="20" lockedForRandom="false" mutationFactor="0.1">-14.0</Parameter>
+			<Parameter id="4" userMin="-12" userMax="12" lockedForRandom="false" mutationFactor="0.1">6.200000</Parameter>
+			<Parameter id="5" userMin="1.8749" userMax="30" lockedForRandom="false" mutationFactor="0.1">1.874900</Parameter>
+			<Parameter id="6" userMin="-5" userMax="5" lockedForRandom="false" mutationFactor="0.1">-0.300000</Parameter>
+			<Parameter id="7" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">50.0</Parameter>
+			<Parameter id="8" userMin="0" userMax="18" lockedForRandom="false" mutationFactor="0.1">9.0</Parameter>
+			<Parameter id="9" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="10" userMin="-24" userMax="0" lockedForRandom="false" mutationFactor="0.1">-12.0</Parameter>
+			<Parameter id="11" userMin="-120" userMax="-40" lockedForRandom="false" mutationFactor="0.1">-66.0</Parameter>
+			<Parameter id="12" userMin="-100" userMax="-50" lockedForRandom="false" mutationFactor="0.1">-75.0</Parameter>
+			<Parameter id="13" userMin="-80" userMax="-20" lockedForRandom="false" mutationFactor="0.1">-50.0</Parameter>
+			<Parameter id="14" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">29.900000</Parameter>
+			<Parameter id="15" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="16" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="17" userMin="0" userMax="4" lockedForRandom="false" mutationFactor="0.1">3.0</Parameter>
+			<Parameter id="18" userMin="-1" userMax="4" lockedForRandom="false" mutationFactor="0.1">-1.0</Parameter>
+			<Parameter id="19" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="20" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="21" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="22" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="23" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="24" userMin="0" userMax="8" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="25" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="26" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="27" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="28" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="29" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="30" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="31" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="32" userMin="-100" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="33" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="34" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="35" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="36" userMin="0.1" userMax="40" lockedForRandom="false" mutationFactor="0.1">4.0</Parameter>
+			<Parameter id="37" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="38" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="39" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="40" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="41" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="42" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="43" userMin="20" userMax="2000" lockedForRandom="false" mutationFactor="0.1">200.0</Parameter>
+			<Parameter id="44" userMin="200" userMax="20000" lockedForRandom="false" mutationFactor="0.1">4000.0</Parameter>
+			<Parameter id="45" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="46" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">50.0</Parameter>
+			<Parameter id="47" userMin="1" userMax="5" lockedForRandom="false" mutationFactor="0.1">2.600000</Parameter>
+			<Parameter id="48" userMin="0" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="49" userMin="0" userMax="3" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="50" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="51" userMin="0" userMax="5" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="52" userMin="-1" userMax="5" lockedForRandom="false" mutationFactor="0.1">-1.0</Parameter>
+			<Parameter id="53" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="54" userMin="0" userMax="100" lockedForRandom="false" mutationFactor="0.1">100.0</Parameter>
+			<Parameter id="55" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="56" userMin="-3" userMax="23" lockedForRandom="false" mutationFactor="0.1">6.0</Parameter>
+			<Parameter id="57" userMin="-3" userMax="23" lockedForRandom="false" mutationFactor="0.1">6.0</Parameter>
+			<Parameter id="58" userMin="0.1" userMax="2" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="59" userMin="0.1" userMax="2" lockedForRandom="false" mutationFactor="0.1">1.0</Parameter>
+			<Parameter id="60" userMin="0.1" userMax="0.9" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="61" userMin="0.1" userMax="0.9" lockedForRandom="false" mutationFactor="0.1">0.500000</Parameter>
+			<Parameter id="62" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="63" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="64" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="65" userMin="0" userMax="1" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<Parameter id="66" userMin="-2" userMax="2" lockedForRandom="false" mutationFactor="0.1">0.0</Parameter>
+			<CustomData name="ClassInfo">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</CustomData>
+			<CustomData name="ClassInfoSize">4811</CustomData>
+			<CustomData name="ClassInfoSum">58</CustomData>
+		</Bidule>
+		<Link producerId="UID_1638219908" producerChannel="1" listenerId="UID_1638219910" listenerChannel="1"/>
+		<Link producerId="UID_1638219907" producerChannel="1" listenerId="UID_1638219908" listenerChannel="1"/>
+		<Link producerId="UID_1638219907" producerChannel="0" listenerId="UID_1638219908" listenerChannel="0"/>
+		<Link producerId="UID_1638219910" producerChannel="0" listenerId="UID_1638219912" listenerChannel="0"/>
+		<Link producerId="UID_1638219910" producerChannel="1" listenerId="UID_1638219912" listenerChannel="1"/>
+		<Link producerId="UID_1638219908" producerChannel="0" listenerId="UID_1638219910" listenerChannel="0"/>
+		<Link producerId="UID_1638219914" producerChannel="0" listenerId="UID_1638219907" listenerChannel="0"/>
+		<Link producerId="UID_1638219914" producerChannel="1" listenerId="UID_1638219907" listenerChannel="1"/>
+		<Link producerId="UID_1638219912" producerChannel="0" listenerId="UID_1638219914" listenerChannel="0"/>
+		<Link producerId="UID_1638219912" producerChannel="1" listenerId="UID_1638219914" listenerChannel="1"/>
+		<VirtualParameter id="0" source="UID_1638219907" param="-8" displayName="Open UI"/>
+	</BiduleGroup>
+</BoardLayout>
